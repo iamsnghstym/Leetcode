@@ -1,6 +1,6 @@
 from typing import List
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(nums: List[int], target: int) -> List[int]:
         dictionary = dict()
         for idx, value in enumerate(nums):
             to_find = target - value
